@@ -4,30 +4,206 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Us - Events Studio by Globibo</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(93.86deg, #FF5789 9.08%, #A704FD 100.25%);
+    color: #fff;
+    padding: 20px;
+}
+
+
+.footer {
+    background: linear-gradient(93.86deg, #FF5789 9.08%, #A704FD 100.25%);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2, h3 {
+    background: linear-gradient(93.86deg, #FF5789 9.08%, #A704FD 100.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features li {
+    width: calc(25% - 10px);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.features li:nth-child(4n + 1) {
+    background-color: #007bff; /* Blue theme */
+}
+
+.features li:nth-child(4n + 2) {
+    background-color: #fd7e14; /* Orange theme */
+}
+
+.features li:nth-child(4n + 3) {
+    background-color: #28a745; /* Green theme */
+}
+
+.features li:nth-child(4n + 4) {
+    background-color: #dc3545; /* Red theme */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .features li {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .features li {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
+        <div class="container-fluid g-0">
+                <div class="header">
+        <h1 class="text-white text-center">About Us - Events Studio by Globibo</h1>
+    </div>    
+        </div>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to <strong>Events Studio</strong> by <strong>Globibo</strong> – your go-to solution for effortlessly managing and organizing events of all sizes. At Globibo, we're passionate about simplifying event planning and execution, empowering organizers to create memorable experiences seamlessly.</p>
-    
-    <h3>Our Mission</h3>
-    <p>Our mission is to revolutionize the way events are organized and executed. We believe that everyone should have access to powerful tools that streamline the event planning process, from inception to completion. With our innovative platform, <strong>Events Studio</strong>, we aim to empower organizers, vendors, and attendees alike, fostering collaboration and enhancing event experiences worldwide.</p>
-    
-    <h3>Why Choose Us?</h3>
-    <ul>
-        <li><strong>Simplicity:</strong> We prioritize user-friendly design and intuitive interfaces, ensuring that our platform is accessible to users of all skill levels.</li>
-        <li><strong>Flexibility:</strong> Whether you're planning a small gathering or a large-scale conference, <strong>Events Studio</strong> offers the flexibility to adapt to your unique needs and requirements.</li>
-        <li><strong>Robust Features:</strong> From event creation and ticketing to attendee management and analytics, our comprehensive suite of features covers every aspect of event organization.</li>
-        <li><strong>Community-driven Development:</strong> We value feedback from our users and actively incorporate suggestions and ideas into our development roadmap, ensuring that <strong>Events Studio</strong> evolves to meet the ever-changing needs of the event planning industry.</li>
-    </ul>
-    
-    <h3>Our Team</h3>
-    <p><strong>Globibo</strong> is comprised of a diverse team of passionate individuals with expertise in software development, event management, and customer support. We're dedicated to providing exceptional service and support to our users, helping them achieve their event planning goals with confidence.</p>
-    
-    <h3>Get in Touch</h3>
-    <p>Have questions, feedback, or suggestions? We'd love to hear from you! Feel free to reach out to our team via [contact email or form], and we'll get back to you as soon as possible. Join us on our journey to redefine event organization – together, we can make every event a resounding success!</p>
-</section>
+<div class="container">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>Events Studio</strong> by <strong>Globibo</strong> – your go-to solution for effortlessly managing and organizing events of all sizes. At Globibo, we're passionate about simplifying event planning and execution, empowering organizers to create memorable experiences seamlessly.</p>
+        
+        <h3>Our Mission</h3>
+        <p>Our mission is to revolutionize the way events are organized and executed. We believe that everyone should have access to powerful tools that streamline the event planning process, from inception to completion. With our innovative platform, <strong>Events Studio</strong>, we aim to empower organizers, vendors, and attendees alike, fostering collaboration and enhancing event experiences worldwide.</p>
+        
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li><strong>Simplicity:</strong> We prioritize user-friendly design and intuitive interfaces, ensuring that our platform is accessible to users of all skill levels.</li>
+            <li><strong>Flexibility:</strong> Whether you're planning a small gathering or a large-scale conference, <strong>Events Studio</strong> offers the flexibility to adapt to your unique needs and requirements.</li>
+            <li><strong>Robust Features:</strong> From event creation and ticketing to attendee management and analytics, our comprehensive suite of features covers every aspect of event organization.</li>
+            <li><strong>Community-driven Development:</strong> We value feedback from our users and actively incorporate suggestions and ideas into our development roadmap, ensuring that <strong>Events Studio</strong> evolves to meet the ever-changing needs of the event planning industry.</li>
+        </ul>
+        
+        <h3>Our Team</h3>
+        <p><strong>Globibo</strong> is comprised of a diverse team of passionate individuals with expertise in software development, event management, and customer support. We're dedicated to providing exceptional service and support to our users, helping them achieve their event planning goals with confidence.</p>
+        
+        <h3>Get in Touch</h3>
+        <p>Have questions, feedback, or suggestions? We'd love to hear from you! Feel free to reach out to our team via [contact email or form], and we'll get back to you as soon as possible. Join us on our journey to redefine event organization – together, we can make every event a resounding success!</p>
+    </section>
+    <section>
+        <p>Events.Studio is a configurable, scalable, and extendable event platform. It comprises the broadest spectrum of modules, the deepest integration of hardware and software elements, and the most sophisticated AI learning in the industry</p>
+    </section>
+
+    <section>
+           
+        <h3>Technologies We Use</h3>
+        <ul>
+            <li><strong>Ionic and Angular:</strong> Our frontend is built using the Ionic framework with Angular, providing a seamless and responsive user experience.</li>
+            <li><strong>SignalR:</strong> We utilize SignalR for real-time communication, enabling instant updates and notifications for event organizers and attendees.</li>
+            <li><strong>Microsoft ASP.NET:</strong> Our backend is powered by Microsoft ASP.NET, ensuring robustness, scalability, and security for data management and processing.</li>
+            <li><strong>Chart.js:</strong> We leverage Chart.js for data visualization, allowing users to analyze event statistics and trends with interactive charts and graphs.</li>
+            <li><strong>PayPal:</strong> Integration with PayPal enables secure and convenient payment processing for event tickets and transactions.</li>
+            <li><strong>Firebase:</strong> Firebase provides backend services such as authentication, database, and hosting, enhancing the scalability and reliability of our application.</li>
+            <li><strong>Live chat (Tawk.to):</strong> We offer live chat support using Tawk.to, allowing users to get instant assistance and support during their event planning process.</li>
+        </ul>
+    </section>
+
+    <section>
+     <h3>Features/Modules</h3>
+        <ul class="features">
+            <li>Agenda</li>
+            <li>Auction</li>
+            <li>Article</li>
+            <li>Around Me</li>
+            <li>Bookmarks</li>
+            <li>Closeby</li>
+            <li>ExhibitorsForum</li>
+            <li>Gallery</li>
+            <li>Leaderboard</li>
+            <li>Leads</li>
+            <li>Maps</li>
+            <li>Chat</li>
+            <li>Meeting</li>
+            <li>Media</li>
+            <li>Networking</li>
+            <li>Organisers</li>
+            <li>Participants</li>
+            <li>Partner</li>
+            <li>Poster</li>
+            <li>Purchase</li>
+            <li>Sponsor</li>
+            <li>Suggestions</li>
+            <li>Streaming</li>
+            <li>Survey</li>
+            <li>Speakers</li>
+            <li>Session</li>
+            <li>Rating</li>
+            <li>Search</li>
+            <li>Social</li>
+            <li>News</li>
+            <li>Wallet</li>
+            <li>Info</li>
+            <li>Page</li>
+            <li>Abstract</li>
+            <li>Activity</li>
+            <li>Stations</li>
+            <li>Chatbot</li>
+            <li>Mind Map</li>
+            <li>Calendar</li>
+            <li>Tours</li>
+            <li>Demonstration</li>
+            <li>Micro Conference</li>
+            <li>Working Room</li>
+            <li>Call to Action</li>
+            <li>AGM</li>
+            <li>Proxy</li>
+            <li>Booking</li>
+            <li>Featured sessions</li>
+        </ul>
+        
+    </section>
+</div>
+
+                <div class="container-fluid g-0">
+      <div class="footer">
+        <p class="text-white text-center">&copy; 2024 Events Studio by Globibo. All rights reserved.</p>
+    </div>
+        </div>
 
 </body>
 </html>
